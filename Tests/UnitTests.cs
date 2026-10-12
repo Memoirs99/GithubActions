@@ -125,8 +125,7 @@ public class Exponentiation
     [TestMethod]
     public void Power_Valid_Hammans()
     {
-        //Failing Unit test (on purpose)
-        Assert.AreEqual(9, Program.Power("2", "3"));
+        Assert.AreEqual(8, Program.Power("2", "3"));
         Assert.AreEqual(1, Program.Power("5", "0"));
         Assert.AreEqual(0.5, Program.Power("2", "-1"));
     }
